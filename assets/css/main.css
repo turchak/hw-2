@@ -1,28 +1,83 @@
-h1, h2{
-  font-family: "Trebuchet MS", sans-serif;
+* {
+  box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Butler';
+  src: url('/assets/fonts/butler/butler_black-webfont.woff2') format('woff2'), url('/assets/fonts/butler/butler_black-webfont.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
 
-.header{
+@font-face {
+  font-family: 'Butler';
+  src: url('/assets/fonts/butler/butler_bold-webfont.woff2') format('woff2'), url('/assets/fonts/butler/butler_bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Butler';
+  src: url('/assets/fonts/butler/butler_extrabold-webfont.woff2') format('woff2'), url('/assets/fonts/butler/butler_extrabold-webfont.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Butler';
+  src: url('/assets/fonts/butler/butler_light-webfont.woff2') format('woff2'), url('/assets/fonts/butler/butler_light-webfont.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Butler';
+  src: url('/assets/fonts/butler/butler_medium-webfont.woff2') format('woff2'), url('/assets/fonts/butler/butler_medium-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Butler';
+  src: url('/assets/fonts/butler/butler_regular-webfont.woff2') format('woff2'), url('/assets/fonts/butler/butler/butler_regular-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Butler';
+  src: url('/assets/fonts/butler/butler_ultra_light-webfont.woff2') format('woff2'), url('/assets/fonts/butler/butler_ultra_light-webfont.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+h1, h2 {
+  font-family: "Butler", sans-serif;
+  font-weight: 700;
+}
+
+.header {
   background: #423E3B;
   text-align: center;
   padding: 50px;
 }
-.header-icon{
+
+.header-icon {
   display: block;
   width: 200px;
   margin: 0 auto;
 }
-.header-title{
-margin: -30px auto 0;
-font-size: 36px;
-text-transform: uppercase;
-color: #fff;
-font-weight: normal;
-letter-spacing: 1px;
+
+.header-title {
+  margin: -30px auto 0;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #fff;
+  /*font-weight: normal;*/
+  letter-spacing: 1px;
 }
-.header-title::before,
-.header-title::after{
+
+.header-title::before, .header-title::after {
   content: "";
   display: inline-block;
   width: 10px;
@@ -30,63 +85,71 @@ letter-spacing: 1px;
   background: #fff;
   vertical-align: middle;
 }
-.header-title::before{
+
+.header-title::before {
   margin-right: 10px;
 }
-.header-title::after{
+
+.header-title::after {
   margin-left: 10px;
 }
-.cities{
+
+.cities {
   padding: 0;
   margin: 0;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
 }
-.city:nth-child(4n+2){
-  background: #f2f2f2;
 
-}
-.city:nth-child(4n+3){
+.city:nth-child(4n+2) {
   background: #f2f2f2;
-
 }
-.city{
+
+.city:nth-child(4n+3) {
+  background: #f2f2f2;
+}
+
+.city {
   width: 50%;
   padding: 60px 0;
   text-align: center;
 }
-.city-img{
+
+.city-img {
   display: block;
   margin: 0 auto;
-  width: 150px;*/
+  width: 150px;
 }
-.city-title{
+
+.city-title {
   margin: 10px 0 0;
   font-size: 36px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-weight: normal;
+  /*font-weight: normal;*/
   color: #423E3B;
 }
-.city-description{
+
+.city-description {
   margin: 15px auto 0;
   max-width: 550px;
-  font-family: Georgia;
+  font-family: "Open Sans", sans-serif;
   font-style: italic;
   font-size: 18px;
   line-height: 30px;
   color: #666;
 }
 
-.footer{
+.footer {
   padding: 85px 0;
   background: #423E3B;
   text-align: center;
 }
-.footer-text{
+
+.footer-text {
   margin: 0;
-  font-family: Georgia;
+  font-family: "Open Sans", sans-serif;
   color: #fff;
   font-style: italic;
   font-size: 14px;
