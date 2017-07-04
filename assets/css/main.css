@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: 'Butler';
-  src: url('../fonts/butler/butler_bold-webfont.woff2') format('woff2'), url('/assets/fonts/butler/butler_bold-webfont.woff') format('woff');
+  src: url('../../assets/fonts/butler/butler_bold-webfont.woff2') format('woff2'), url('../../assets/fonts/butler/butler_bold-webfont.woff') format('woff');
   font-weight: 700;
   font-style: normal;
 }
