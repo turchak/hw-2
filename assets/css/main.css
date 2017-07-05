@@ -3,6 +3,82 @@
 }
 
 @font-face {
+  font-family: 'city';
+  src: url('../fonts/city/city.woff?db3qhl') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'city';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 160px;
+  color: rgb(79, 79, 79);
+}
+
+.icon-amsterdam:before {
+  content: "\e900";
+}
+
+.icon-austin:before {
+  content: "\e901";
+}
+
+.icon-barcelona:before {
+  content: "\e902";
+}
+
+.icon-berlin:before {
+  content: "\e903";
+}
+
+.icon-cape-town:before {
+  content: "\e904";
+}
+
+.icon-dublin:before {
+  content: "\e905";
+}
+
+.icon-london:before {
+  content: "\e906";
+}
+
+.icon-new-york:before {
+  content: "\e907";
+}
+
+.icon-paris:before {
+  content: "\e908";
+}
+
+.icon-san-francisco:before {
+  content: "\e909";
+}
+
+.icon-stockholm:before {
+  content: "\e90a";
+}
+
+.icon-sydney:before {
+  content: "\e90b";
+}
+
+.icon-tokyo:before {
+  content: "\e90c";
+}
+
+.icon-wellington:before {
+  content: "\e90d";
+}
+
+@font-face {
   font-family: 'Butler';
   src: url('../fonts/butler/butler_black-webfont.woff2') format('woff2'), url('/assets/fonts/butler/butler_black-webfont.woff') format('woff');
   font-weight: 900;
