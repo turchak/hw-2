@@ -10,7 +10,6 @@
 }
 
 .icon {
-  /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'city';
   speak: none;
   font-style: normal;
@@ -19,7 +18,7 @@
   text-transform: none;
   line-height: 1;
   font-size: 160px;
-  color: rgb(79, 79, 79);
+  color: rgba(79, 79, 79, 1);
 }
 
 .icon-amsterdam:before {
@@ -80,50 +79,8 @@
 
 @font-face {
   font-family: 'Butler';
-  src: url('../fonts/butler/butler_black-webfont.woff2') format('woff2'), url('/assets/fonts/butler/butler_black-webfont.woff') format('woff');
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Butler';
   src: url('../fonts/butler/butler_bold-webfont.woff2') format('woff2'), url('../fonts/butler/butler_bold-webfont.woff') format('woff');
   font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Butler';
-  src: url('../fonts/butler/butler_extrabold-webfont.woff2') format('woff2'), url('/assets/fonts/butler/butler_extrabold-webfont.woff') format('woff');
-  font-weight: 800;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Butler';
-  src: url('../fonts/butler/butler_light-webfont.woff2') format('woff2'), url('/assets/fonts/butler/butler_light-webfont.woff') format('woff');
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Butler';
-  src: url('../fonts/butler/butler_medium-webfont.woff2') format('woff2'), url('/assets/fonts/butler/butler_medium-webfont.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Butler';
-  src: url('../fonts/butler/butler_regular-webfont.woff2') format('woff2'), url('/assets/fonts/butler/butler/butler_regular-webfont.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Butler';
-  src: url('../fonts/butler/butler_ultra_light-webfont.woff2') format('woff2'), url('/assets/fonts/butler/butler_ultra_light-webfont.woff') format('woff');
-  font-weight: 100;
   font-style: normal;
 }
 
@@ -149,7 +106,6 @@ h1, h2 {
   font-size: 36px;
   text-transform: uppercase;
   color: #fff;
-  /*font-weight: normal;*/
   letter-spacing: 1px;
 }
 
@@ -203,7 +159,6 @@ h1, h2 {
   font-size: 36px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  /*font-weight: normal;*/
   color: #423E3B;
 }
 
